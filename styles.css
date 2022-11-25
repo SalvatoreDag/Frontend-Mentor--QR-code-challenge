@@ -12,7 +12,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .container {
@@ -35,7 +34,7 @@
   padding: 0 5px 10px 5px;
   display: flex;
   flex-direction: column;
-  gap: 15px
+  gap: 15px;
 }
 
 .header {
@@ -50,3 +49,22 @@
   font-weight: 400;
   color: hsl(220, 15%, 55%);
 }
+
+@media screen and (min-width: 500px) {
+ .container {
+   width: 50%;
+ }
+} 
+
+
+@media screen and (min-width: 800px) {
+ .container {
+   width: 35%;
+ }
+} 
+
+@media screen and (min-width: 1200px) {
+ .container {
+   width: 25%;
+ }
+} 
